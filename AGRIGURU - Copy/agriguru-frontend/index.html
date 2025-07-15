@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AgriGuru - Crop Price Predictor</title>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>AgriGuru - Crop Price Alert</h2>
+
+  <form id="predictForm">
+    <label>Crop:</label>
+    <input name="crop" placeholder="Enter Crop" required><br>
+
+    <label>Market:</label>
+    <input name="market" placeholder="Enter Market" required><br>
+
+    <label>State:</label>
+    <input name="state"  placeholder="Enter State" required><br>
+
+    <label>District:</label>
+    <input name="district" placeholder="Enter District" required><br>
+
+    <label>Phone (+91...):</label>
+    <input name="phone"  placeholder="+91XXXXXXXXXX" required><br>
+
+    <button type="submit">Get Predicted Price</button>
+  </form>
+
+  <div id="result"></div>
+</body>
+</html>
