@@ -14,3 +14,5 @@ A smart crop price prediction system with SMS alerts for farmers.
 - Spring Boot, Java, Maven
 - Twilio API for SMS
 - HTML, CSS, JS frontend
+
+<img width="1229" height="885" alt="Screenshot11" src="https://github.com/user-attachments/assets/f2d85b8a-0180-4656-9607-d33d1d68856d" />
